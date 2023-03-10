@@ -1,80 +1,32 @@
 <html>
-  <head>
-    <title>Emoção em</title>
+<head>
+  <title>Manipulador de fontes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+<body background="fundoDeSapAlea.jpg">
+<center>
+  <h3 class="btn btn-warning heading">Manipulador de Fonte
+    <br>
+    <span class="note">OBSERVAÇÃO: Aproxime os pulsos para reduzir o tamanho da fonte e afaste para aumentar</span>
+    <br>
+    <span id="square_side"></span>
+  </h3>
+</center>
 
-  <body>
-  <div class="container">
-  
-    <center>
-      <h3 class="btn btn-info heading">
-        App Web de Gesto com as Mãos
-
-        <br>
-      </h3>
-
-      <br><br>
-
-      <p style="font-size: 22px;">O modelo foi treinado para o seguintes gestos
-        <br>
-
-        <span>&#128077;</span>
-        |
-        <span>&#128078;</span>
-        |
-        <span>&#128076;</span>
-        |
-        <span>&#9996;&#65039;</span>
-        |
-        <span>&#9994;</span>
-        |
-        <span>&#128075;</span>
-      </p>
-
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <label>Visualização Webcam</label>
-        <div id="camera"></div>
-
-        <br><br>
-
-        <button onclick="takesnapshot();" class="btn btn-warning">Capturar Imagem</button>
-      </div>
-
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <label>Previsão:</label>
-        <p class="emocao" id="resultadoEmocao"></p>
-        <p class="emoji" id="updateEmoji"></p>
-      </div>
-
-      <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Foto:</label>
-        <div id="resultado"></div>
-
-        <br><br>
-
-        <button onclick="check();" class="btn btn-success">Identificar Gesto</button>
-      </div>
-
-    </center>
-
-  </div>
-
-  <div class="feito">
-    Desenvolvido por - Vitor Klein
-  </div>
+<div class="copy_right_footer">
+  Desenvolvido por: Vitor Klein
+</div>
 
 <script src="main.js"></script>
-
-  </body>
+</body>
 </html>
 
- 
+

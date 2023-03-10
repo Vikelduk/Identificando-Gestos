@@ -1,56 +1,31 @@
-body
-{
-  color: white;
-  background: rgb(139, 35, 87);
-}
-span
-{
-  font-size: 30px;
-}
-#camera , #resultado
-{
-  border: 2px dashed black;
-  width: 350px;
-  height: 300px; 
-}
-#resultadoEmocao
-{
-  color: black;
-}
-.emocao
-{
-  font-size: 40px;
-}
-.emoji
-{
-  font-size:48px;
-}
-
 .heading
 {
-  font-size: 18px;
-  border-radius: 10px;
-  letter-spacing: 10px;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
 }
 
-label
+.note
 {
-  font-size: 14px;
-  color: #62b33a;
-  padding: 6px;
-  border-radius: 10px;
-  background-color: white;
+    font-size: 15px;
+    color: black;
 }
 
-.feito 
+.copy_right_footer
 {
     position: fixed;
-    color: rgba(126, 126, 126, 0.961);
+    color: white;
     bottom: 0;
     width: 100%;
-    font-size: 18px;
-    background-color: whitesmoke;
+    background-color: grey;
+    line-height: 3;
     text-align: center;
-    line-height: 2.5;
-    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
+
+canvas
+{
+    border: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
 }
