@@ -27,5 +27,6 @@ canvas
 {
     border: 5px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px blue;
+    background-color: #469BD2;
 }
